@@ -1,0 +1,5 @@
+<div>
+  <p>{{ author.author }} {{ author.title }}</p>
+  <button (click)="select.emit(author)">Select</button>
+  <button (click)="deleteAuthor.emit(author.id)">delete</button>
+</div>

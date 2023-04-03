@@ -1,0 +1,7 @@
+.progress-container,
+.progress-bar {
+  height: 20px;
+}
+.progress-container {
+  width: 100%;
+}

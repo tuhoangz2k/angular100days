@@ -1,0 +1,31 @@
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 8px 0;
+}
+
+p {
+  margin: 0;
+}
+
+.fs {
+  font-size: 26px;
+}
+.m-right {
+  margin-right: 15px;
+}
+.box {
+  margin-top: 20px;
+  width: 200px;
+  height: 200px;
+  border: solid 2px #333;
+}
+.blue-border {
+  border-color: blue;
+}
+.red-bg {
+  background-color: red;
+}

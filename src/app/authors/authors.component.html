@@ -1,0 +1,7 @@
+<h2>{{ currentAuthor.author }}</h2>
+<author-detail
+  *ngFor="let author of authors"
+  [author]="author"
+  (select)="onChangeAuthor($event)"
+  (deleteAuthor)="onDeleteAuthor($event)"
+></author-detail>
